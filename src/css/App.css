@@ -1,0 +1,20 @@
+.App {
+  background-color: #dadbd3;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.app__body {
+  display: flex;
+  background-color: #ededed;
+  height: 90vh;
+  width: 95vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width: 600px) {
+  .app__body {
+    width: 90vw;
+    height: 100%;
+  }
+}
